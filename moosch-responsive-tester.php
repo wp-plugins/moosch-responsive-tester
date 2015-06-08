@@ -1,21 +1,21 @@
 <?php
-/**
-* MooschResponsiveTester plugin file
-*
-* @link              http://wp.mooschmedia.com/plugins/moosch-responsive-tester/
-* @since             0.1.0
-* @package           MooschResponsiveTester
-*
-* @wordpress-plugin
-* Plugin Name:       Moosch Responsive Tester
-* Plugin URI:        http://wp.mooschmedia.com/plugins/moosch-responsive-tester/
-* Description:       The plugin adds additional buttons to the Wordpress Customizer Menu. These are used to test your website on various screen sizes.
-* Version:           0.1.0
-* Author:            Moosch Media Limited
-* Author URI:        http://wp.mooschmedia.com/
-* License:           GPL-2.0+
-* License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
-* Text Domain:       moosch-responsive-tester
+/*
+MooschResponsiveTester plugin file
+@link              http://wp.mooschmedia.com/plugins/moosch-responsive-tester/
+@since             0.1.0
+@package           MooschResponsiveTester
+
+@wordpress-plugin
+
+Plugin Name:       Moosch Responsive Tester
+Plugin URI:        http://wp.mooschmedia.com/plugins/moosch-responsive-tester/
+Description:       The plugin adds additional buttons to the Wordpress Customizer Menu. These are used to test your website on various screen sizes.
+Version:           0.1.0
+Author:            Moosch Media Limited
+Author URI:        http://wp.mooschmedia.com/
+License:           GPL-2.0+
+License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
+Text Domain:       moosch-responsive-tester
 */
 
 
