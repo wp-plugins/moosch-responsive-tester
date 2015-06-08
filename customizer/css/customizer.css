@@ -1,0 +1,95 @@
+/*
+* MooschResponsiveTester Customizer styles
+*
+* Author: Moosch Media
+* Author URI: http://wp.mooschmedia.com/
+* License: GNU General Public License v2 or later
+* License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+
+/*============================================
+CUSTOMIZER MENU
+============================================*/
+.customize-controls-moosch-actions{
+	display: none;
+	left: 48px;
+	top: 0;
+	position: absolute;
+	vertical-align: bottom;
+}
+.customize-controls-moosch-actions ul.moosch-customizer-nav{
+	display:block;
+	vertical-align: bottom;
+	margin: 0;
+}
+.customize-controls-moosch-actions ul.moosch-customizer-nav li{
+	display:inline;
+	margin: 0;
+	vertical-align: bottom;
+	float:left;
+}
+.customize-controls-moosch-actions ul.moosch-customizer-nav > li > a,
+.customize-controls-moosch-actions ul.moosch-customizer-nav > li > span {
+	width: 48px;
+	height: 45px;
+	background: transparent;
+	border-right: 1px solid #ddd;
+	color: #555;
+	text-align: center;
+	line-height: 45px;
+	transition: background .1s ease-in-out;
+	position: relative;
+	display: block;
+	text-indent: initial;
+	cursor: pointer;
+}
+.customize-controls-moosch-actions ul.moosch-customizer-nav > li:hover > a,
+.customize-controls-moosch-actions ul.moosch-customizer-nav > li:hover > span {
+	background: #fff;
+}
+
+.customize-controls-moosch-actions ul.moosch-customizer-nav > li.active > a,
+.customize-controls-moosch-actions ul.moosch-customizer-nav > li.active > span {
+	background-color: #7DC3AB;
+	color:#fff;
+}
+
+
+/*============================================
+NOTIFICATIONS
+============================================*/
+.moosch-test-notification {
+	position: fixed;
+	top: -40px;
+	width: 100%;
+	text-align: center;
+	padding: 9px;
+	background-color: #C37D7D;
+	color:#fff;
+
+	-ms-transition:top .2s ease-in-out;
+	-o-transition:top .2s ease-in-out;
+	-moz-transition:top .2s ease-in-out;
+	-webkit-transition:top .2s ease-in-out;
+	transition:top .2s ease-in-out;
+}
+.moosch-test-notification.show {
+	top: 0;
+}
+.moosch-test-notification .dashicons {
+	margin-right:10px;
+}
+
+
+.test-active iframe {
+	box-shadow:0 0 3px #aaa;
+	box-shadow:0 0 3px rgba(0,0,0,0.3);
+	margin:0 auto;
+	display: block;
+	-ms-transition:width .2s ease-in-out, height .2s ease-in-out;
+	-o-transition:width .2s ease-in-out, height .2s ease-in-out;
+	-moz-transition:width .2s ease-in-out, height .2s ease-in-out;
+	-webkit-transition:width .2s ease-in-out, height .2s ease-in-out;
+	transition:width .2s ease-in-out, height .2s ease-in-out;
+}
