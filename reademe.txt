@@ -1,5 +1,5 @@
 === Moosch Responsive Tester ===
-Contributors: Ryan Whitlie
+Contributors: moosch
 Tags: responsive, testing, tablet, smartphone, phone, mobile, rwd
 Requires at least: 4.0
 Tested up to: 4.1
@@ -26,9 +26,9 @@ None yet.
 == Installation ==
 
 1. Download the plugin and unzip it.
-2. Upload the folder moosch-responsive-tester/ to your /wp-content/plugins/ folder.
-3. Activate the plugin from your WordPress admin panel.
-4. Enjoy!
+1. Upload the folder moosch-responsive-tester/ to your /wp-content/plugins/ folder.
+1. Activate the plugin from your WordPress admin panel.
+1. Enjoy!
 
 == Changelog ==
 
